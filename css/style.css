@@ -1,0 +1,125 @@
+html, body {
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: rgb(66, 69, 81);
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container {
+    min-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    line-height: 50px;
+    color: white;
+    background: linear-gradient(rgb(255, 63, 58), rgb(247, 94, 5));
+    letter-spacing: 0.5px;
+    font-family: "Lato";
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 0px 40px;
+    white-space: nowrap;
+}
+
+.button:hover {
+    transform: scale(1.06);
+}
+
+/* ------------------------------------------------------------- */
+
+.wrapper {}
+
+.header {
+    font-weight: 700;
+}
+
+.header__top {}
+
+.container {}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.logo {}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header_nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+
+.header__nav-link {
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.header__nav-link:hover {
+    color: rgb(255, 63, 58);
+    transition: all 0.3s;
+}
+
+.header__btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.header__top-btn {
+    margin-right: 36px;
+}
+
+.button {}
+
+.header__user-nav {
+
+    position: relative;
+    padding-left: 28px;
+}
+
+.header__user-nav::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url("../img/icons/user-icon.svg") no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.header__user-nav:hover {
+    color: rgb(255, 63, 58);
+    transition: all 0.3s;
+}
+
+.header__user-btn {
+    white-space: nowrap;
+    /*   */
+}
+
+.header__body {}
